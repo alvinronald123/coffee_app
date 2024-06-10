@@ -111,13 +111,7 @@ const OrderHistoryScreen = ({ navigation }: any) => {
                     ) : (
                         <></>
                     )}
-                    <TouchableOpacity
-                        style={styles.DownloadButton}
-                        onPress={() => {
 
-                        }}>
-                        <Text style={styles.ButtonText}>Clear History</Text>
-                    </TouchableOpacity>
                 </View>
             </ScrollView>
         </View>

@@ -1,15 +1,20 @@
 import React from 'react';
-import { StyleSheet, Image, View } from 'react-native';
+import { StyleSheet, Image, View, TouchableOpacity, Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native'; // Import useNavigation hook
 import { COLORS, SPACING } from '../theme/theme';
+import LoginAdmin from '../admin/LoginAdmin';
+
 
 const ProfilePic = () => {
     return (
+
         <View style={styles.ImageContainer}>
             <Image
-                source={require('../assets/app_images/alvin.jpeg')}
+                source={require('../assets/app_images/logo.png')}
                 style={styles.Image}
             />
         </View>
+
     );
 };
 

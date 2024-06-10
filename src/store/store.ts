@@ -6,6 +6,7 @@ import CoffeeData from '../data/CoffeeData';
 import BeansData from '../data/BeansData';
 
 export const useStore = create(
+
   persist(
     (set, get) => ({
       CoffeeList: CoffeeData,

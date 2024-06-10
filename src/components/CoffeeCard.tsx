@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     Dimensions,
     ImageBackground,
@@ -20,6 +20,7 @@ import CustomIcon from './CustomIcon';
 import BGIcon from './BGIcon';
 
 const CARD_WIDTH = Dimensions.get('window').width * 0.32;
+
 
 interface CoffeeCardProps {
     id: string;

@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "id": "aa4b",
+      "username": "test123",
+      "email": "test@gmail.com",
+      "phone": "0701651791",
+      "password": "test123"
+    },
+    {
+      "id": "4c6f",
+      "username": "Ronald",
+      "email": "ronald@gmail.com",
+      "phone": "0701651791",
+      "password": "123456789"
+    },
+    {
+      "id": "47cf",
+      "username": "Isaac",
+      "email": "Isaac@gmail.com",
+      "phone": "0776810572",
+      "password": "12345678"
+    },
+    {
+      "id": "5b86",
+      "username": "one",
+      "email": "one@gmail.com",
+      "phone": "0701651791",
+      "password": "one"
+    }
+  ]
+}
